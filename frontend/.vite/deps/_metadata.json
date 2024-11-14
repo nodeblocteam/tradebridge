@@ -1,0 +1,199 @@
+{
+  "hash": "9035b1ad",
+  "configHash": "f7b1e7a1",
+  "lockfileHash": "56e78c7d",
+  "browserHash": "6012127e",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e7d8161f",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a6ceaf14",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "11dec3f0",
+      "needsInterop": false
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "ce1cfc4d",
+      "needsInterop": false
+    },
+    "wagmi": {
+      "src": "../../node_modules/wagmi/dist/esm/exports/index.js",
+      "file": "wagmi.js",
+      "fileHash": "d0ce05b5",
+      "needsInterop": false
+    },
+    "wagmi/chains": {
+      "src": "../../node_modules/wagmi/dist/esm/exports/chains.js",
+      "file": "wagmi_chains.js",
+      "fileHash": "99077f50",
+      "needsInterop": false
+    },
+    "wagmi/connectors": {
+      "src": "../../node_modules/wagmi/dist/esm/exports/connectors.js",
+      "file": "wagmi_connectors.js",
+      "fileHash": "607a957a",
+      "needsInterop": false
+    },
+    "react-icons/ai": {
+      "src": "../../node_modules/react-icons/ai/index.mjs",
+      "file": "react-icons_ai.js",
+      "fileHash": "399f2780",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "7e741fd3",
+      "needsInterop": false
+    },
+    "ethers": {
+      "src": "../../node_modules/ethers/lib.esm/index.js",
+      "file": "ethers.js",
+      "fileHash": "452269c5",
+      "needsInterop": false
+    },
+    "pinata": {
+      "src": "../../node_modules/pinata/dist/index.mjs",
+      "file": "pinata.js",
+      "fileHash": "3b7b71a0",
+      "needsInterop": false
+    },
+    "react-icons/bs": {
+      "src": "../../node_modules/react-icons/bs/index.mjs",
+      "file": "react-icons_bs.js",
+      "fileHash": "08d3f2f1",
+      "needsInterop": false
+    },
+    "react-icons/rx": {
+      "src": "../../node_modules/react-icons/rx/index.mjs",
+      "file": "react-icons_rx.js",
+      "fileHash": "d6cf8acc",
+      "needsInterop": false
+    },
+    "blockies": {
+      "src": "../../node_modules/blockies/build/index.js",
+      "file": "blockies.js",
+      "fileHash": "0172d91a",
+      "needsInterop": true
+    },
+    "react-chartjs-2": {
+      "src": "../../node_modules/react-chartjs-2/dist/index.js",
+      "file": "react-chartjs-2.js",
+      "fileHash": "f86cbffa",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "2883fbbd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "dist-NPZ4CFO3": {
+      "file": "dist-NPZ4CFO3.js"
+    },
+    "dist-NF5OCNKW": {
+      "file": "dist-NF5OCNKW.js"
+    },
+    "chunk-33EQSHMH": {
+      "file": "chunk-33EQSHMH.js"
+    },
+    "index.es-ZMWWIHS2": {
+      "file": "index__es-ZMWWIHS2.js"
+    },
+    "secp256k1-WHZZ24CY": {
+      "file": "secp256k1-WHZZ24CY.js"
+    },
+    "ccip-TVRCXIRI": {
+      "file": "ccip-TVRCXIRI.js"
+    },
+    "native-SQFK5VQM": {
+      "file": "native-SQFK5VQM.js"
+    },
+    "dist-L7SF5VBT": {
+      "file": "dist-L7SF5VBT.js"
+    },
+    "dist-PU5MP3QQ": {
+      "file": "dist-PU5MP3QQ.js"
+    },
+    "chunk-LGQAT2JO": {
+      "file": "chunk-LGQAT2JO.js"
+    },
+    "chunk-PRGWWW63": {
+      "file": "chunk-PRGWWW63.js"
+    },
+    "chunk-5XNC3COW": {
+      "file": "chunk-5XNC3COW.js"
+    },
+    "metamask-sdk-WISZD5UM": {
+      "file": "metamask-sdk-WISZD5UM.js"
+    },
+    "esm-UIFTWSUL": {
+      "file": "esm-UIFTWSUL.js"
+    },
+    "dist-QEQL42RZ": {
+      "file": "dist-QEQL42RZ.js"
+    },
+    "chunk-OFLUJM4P": {
+      "file": "chunk-OFLUJM4P.js"
+    },
+    "chunk-7O66ALXF": {
+      "file": "chunk-7O66ALXF.js"
+    },
+    "chunk-PPA3WXSL": {
+      "file": "chunk-PPA3WXSL.js"
+    },
+    "chunk-CAY46QZF": {
+      "file": "chunk-CAY46QZF.js"
+    },
+    "chunk-A6WFFWP2": {
+      "file": "chunk-A6WFFWP2.js"
+    },
+    "chunk-7MQHQGKA": {
+      "file": "chunk-7MQHQGKA.js"
+    },
+    "chunk-7MISXU67": {
+      "file": "chunk-7MISXU67.js"
+    },
+    "chunk-QVPKBGQS": {
+      "file": "chunk-QVPKBGQS.js"
+    },
+    "chunk-QGRJZ6ET": {
+      "file": "chunk-QGRJZ6ET.js"
+    },
+    "chunk-LYMWR3AX": {
+      "file": "chunk-LYMWR3AX.js"
+    },
+    "chunk-OFS4JK5L": {
+      "file": "chunk-OFS4JK5L.js"
+    },
+    "chunk-G3JEBSXI": {
+      "file": "chunk-G3JEBSXI.js"
+    },
+    "chunk-TMEMN4EL": {
+      "file": "chunk-TMEMN4EL.js"
+    },
+    "chunk-LYPIWNSY": {
+      "file": "chunk-LYPIWNSY.js"
+    },
+    "chunk-OJK6TXMW": {
+      "file": "chunk-OJK6TXMW.js"
+    },
+    "chunk-256EKJAK": {
+      "file": "chunk-256EKJAK.js"
+    }
+  }
+}
