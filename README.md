@@ -1,107 +1,97 @@
-# Trade Bridge
+# TradeBridge
 
-## Description
+## Overview
+TradeBridge is a blockchain-powered, private marketplace designed to connect farmers, commodity traders, and buyers directly, cutting out intermediaries and ensuring fairer prices. By leveraging smart contracts, TradeBridge delivers transparency, security, and efficiency to agricultural trade, simplifying market access for producers and providing buyers with direct access to quality products.
 
-&nbsp;&nbsp;&nbsp;&nbsp; **Trade Bridge** is a decentralized commodity exchange platform that allows buyers and sellers to trade commodities in a trustless environment using blockchain technology. The platform incorporates tokenization, decentralized and NFT minting/burning to represent commodity ownership. It also handles disputes between parties and includes a fee system to sustain platform operations
+![Build Status](https://img.shields.io/badge/status-in%20development-yellow)
+![License](https://img.shields.io/badge/license-Private-red)
+![Program](https://img.shields.io/badge/program-AyaHQ%20x%20Lisk-blue)
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Deployment](#deployment)
-4. [Features](#features)
-5. [Future Features / Roadmap](#future-features-roadmap)
-6. [Technologies](#technologies)
+## 🎯 Problems We're Solving
 
+### Current Marketplace Challenges
+- **Lack of Trust**: Traditional online marketplaces lack transparency and rely heavily on third-party intermediaries
+- **Centralized Control**: Platform operators have significant control over rules, fees, and dispute resolutions
+- **Ownership & Authenticity**: Difficulty in proving ownership and authenticity of products post-purchase
+- **Inefficient Dispute Resolution**: Slow, cumbersome, and often non-transparent dispute resolution processes
 
-## Installation
- clone the repository
-```
-git clone https://github.com/dimka90/Block-Bridge.git
-```
+### Our Solutions
+- **Building Trust**: Utilizing blockchain for transparent, immutable transaction records
+- **Decentralization**: Eliminating central authorities, giving users control over transactions and data
+- **Ownership Verification**: NFT-based proof of ownership system
+- **Smart Contract Governance**: Automated, fair, and transparent dispute resolution
 
- ## Navigate to the project directory:
-    ```bash
-    cd Block-Bridge
-    ```
+## 🌟 Core Features
 
- ## Install dependencies:
-    ```bash
-     npm install
-    ```
+### 🏪 For Sellers
+- List commodities with custom pricing
+- NFT tokenization of commodities for traceability
+- Dispute management capabilities
+- Rating system based on successful transactions
 
-## Usage
+### 🛒 For Buyers
+- Direct commodity purchase using LSK tokens
+- NFT issuance as proof of ownership
+- Secure escrow-based transactions
+- Direct dispute resolution access
 
-### Compile Contracts:
-```bash
-npx hardhat compile
-```
-### Running Test
-```bash
-npx hardhat test
-```
+### 🔒 Smart Contract Features
+- Secure, transparent trades with escrow
+- Automated dispute resolution system
+- Real-time rating updates
+- Multi-party transaction management
 
-### Deploy the project
-```bash
-npx hardhat run /scripts/deploy.ts --network Lisk
-```
-## Problems we are solving
-&nbsp;&nbsp;&nbsp;&nbsp; In the current e-commerce and digital marketplace landscape, there are several key challenges:
+### 📊 Additional Features
+- Live market price information
+- Compliance tracking mechanisms
+- Transparent trading analytics
 
- - **Lack of trust between buyers and sellers**: Traditional online marketplaces often lack transparency, and buyers and sellers need to rely on third-party intermediaries to facilitate transactions. This can lead to mistrust, especially in the case of disputes.
+## 💻 Technical Stack
 
-- **Centralized control**: Most existing platforms are centralized, giving the platform operators significant control over transaction rules, fees, and the resolution of disputes, which can lead to unfair practices or biased outcomes.
+### Core Technologies
+- **Solidity**: Smart contract development
+- **LISK Blockchain**: Base platform for dApp development
+- **Hardhat**: Ethereum development environment
+- **JavaScript**: Deployment and testing scripts
+- **Ethers.js**: Blockchain interaction library
+- **Node.js**: Server-side runtime
+- **OpenZeppelin**: ERC1155 implementation
+- **Mocha/Chai**: Testing framework
+- **Git**: Version control
 
-- **Ownership and authenticity** : Once a transaction is completed, proving ownership of a product can be difficult. Buyers may not have a reliable way to confirm or showcase that they truly own a product after purchasing it, leading to issues around authenticity and counterfeit items.
+### Architecture Components
+- Smart contract-based transaction management
+- NFT-based ownership system
+- Decentralized trade validation
+- Escrow & compliance modules
 
-- **Inefficient dispute resolution** : In traditional systems, resolving disputes can be slow, cumbersome, and sometimes unfair, often with the platform making the final decision without full transparency.
+## 🚀 Roadmap
 
+### Current Features
+- [x] Commodity listing and tokenization
+- [x] LSK token-based transactions
+- [x] NFT ownership system
+- [x] Basic dispute resolution
+- [x] Seller rating system
 
-Here’s a revised version outlining the solutions your project provides to address the key challenges in the e-commerce and digital marketplace landscape:
+### Upcoming Features
+- [ ] Progressive Web Application (PWA)
+- [ ] Multi-Signature Wallet Support
+- [ ] Enhanced dispute resolution mechanics
+- [ ] Advanced analytics dashboard
 
-## Solutions
-- Building Trust between Buyers and Sellers:
+## 🔒 Project Status & Access
+TradeBridge is currently being developed as part of the AyaHQ x Lisk Onchain Builder incubation program. This is a private repository with access restricted to authorized collaborators.
 
-By utilizing blockchain technology, our platform creates a transparent and secure environment for transactions. Every transaction is recorded on the blockchain, ensuring that both buyers and sellers have access to an immutable transaction history, fostering trust and accountability.
-## Decentralization:
+### Development Phase
+- [x] Initial Planning
+- [x] Architecture Design
+- [ ] Core Development
+- [ ] Testing
+- [ ] Deployment
 
-&nbsp;&nbsp;&nbsp;&nbsp; Our marketplace operates on a decentralized model, eliminating the need for central authorities. This means that users retain control over their transactions and data, reducing the risk of unfair practices or biased outcomes. Sellers set their own rules, fees, and terms of service.
-Proof of Ownership and Authenticity:
+## 📞 Contact
+For inquiries about TradeBridge or collaboration opportunities, please reach out through the AyaHQ x Lisk Onchain Builder program channels.
 
-
-&nbsp;&nbsp;&nbsp;&nbsp; This project aims to address these issues by utilizing decentralized finance (DeFi) and blockchain technology to create a trustless marketplace. It provides transparency, security, and decentralized dispute resolution, all while ensuring buyers receive proof of ownership in the form of NFTs for their purchases.
-
-### Present Features
-
-
-### Seller
-- Sellers can list new commodities available for trade by setting the value   for the commodity, the commodities are tokenized into a digital asset represented as an NFT to ensure traceability and ownership on the blockchain. sellers can also raise or respond to disputes. .
-
- 
-### Buyers 
-- The buyer can buy any commodity using the **LSK** token.
-- On Successfull payment, an NFT will be issued to the Buyer to signify the own the commodity.
-
-### System(Smart contract)
-- Resolve Dispute 
-When a dispute is raised, funds will be temporarily hold in the contract  until the the dispute is resolved and once the dispute is resolved the transaction can proceed and the commodity is transferred to the buyer or the seller account.
-
-- The smart contract provide the plateform for the buyers and sellers to trade.
-- The smart contract gives rating upon eacch successfull  to the seller.
-## Future  Features
-
-- Verifying users Identity using optimistic rollups to.
-
-## Technology used
-The following technologies were used to build this project:
-
-- **Solidity**: Smart contract language for Ethereum development.
-- **Hardhat**: Ethereum development environment for compiling, testing, and deploying smart contracts.
-- **JavaScript**: Used for writing deployment and test scripts.
-- **Ethers.js**: JavaScript library for interacting with the Ethereum blockchain.
-- **Node.js**: Runtime environment for running JavaScript code on the server.
-- **Mocha/Chai**: Testing framework for writing unit tests for smart contracts.
-- **Git**: Version control system to track changes and collaborate on the project.
-- **Openzepplin**: Used the ERC1155 library
-
-- **LISK Blockchain** : 
-Lisk is a blockchain platform designed to make it easier for developers to create decentralized applications (dApps) using JavaScript. 
+---
+© 2024 TradeBridge. All Rights Reserved.
