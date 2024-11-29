@@ -50,7 +50,7 @@ TradeBridge is a blockchain-powered, private marketplace designed to connect far
 
 ### Core Technologies
 - **Solidity**: Smart contract development
-- **LISK Blockchain**: Base platform for dApp development
+- **Core Blockchain**: Base platform for dApp development
 - **Hardhat**: Ethereum development environment
 - **JavaScript**: Deployment and testing scripts
 - **Ethers.js**: Blockchain interaction library
@@ -69,7 +69,7 @@ TradeBridge is a blockchain-powered, private marketplace designed to connect far
 
 ### Current Features
 - [x] Commodity listing and tokenization
-- [x] LSK token-based transactions
+- [x] Core token-based transactions
 - [x] NFT ownership system
 - [x] Basic dispute resolution
 - [x] Seller rating system
@@ -81,7 +81,7 @@ TradeBridge is a blockchain-powered, private marketplace designed to connect far
 - [ ] Advanced analytics dashboard
 
 ## 🔒 Project Status & Access
-TradeBridge is currently being developed as part of the AyaHQ x Lisk Onchain Builder incubation program. This is a private repository with access restricted to authorized collaborators.
+TradeBridge is currently being developed as part of Core's Builder incubation program. This is a private repository with access restricted to authorized collaborators.
 
 ### Development Phase
 - [x] Initial Planning
