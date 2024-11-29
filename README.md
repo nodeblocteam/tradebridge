@@ -69,7 +69,6 @@ TradeBridge is a blockchain-powered, private marketplace designed to connect far
 
 ### Current Features
 - [x] Commodity listing and tokenization
-- [x] Core token-based transactions
 - [x] NFT ownership system
 - [x] Basic dispute resolution
 - [x] Seller rating system
@@ -79,9 +78,10 @@ TradeBridge is a blockchain-powered, private marketplace designed to connect far
 - [ ] Multi-Signature Wallet Support
 - [ ] Enhanced dispute resolution mechanics
 - [ ] Advanced analytics dashboard
+- [ ] Core token-based transactions
 
 ## 🔒 Project Status & Access
-TradeBridge is currently being developed as part of Core's Builder incubation program. This is a private repository with access restricted to authorized collaborators.
+TradeBridge is currently being developed independently and have applied to be part of Core's Builders program. This is a private repository with access restricted to authorized collaborators.
 
 ### Development Phase
 - [x] Initial Planning
